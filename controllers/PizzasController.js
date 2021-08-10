@@ -1,4 +1,7 @@
 const pizzas = require('../database/Pizzas.json');
+const fs = require("fs");
+const path = require('path');
+
 
 module.exports = {
 	index: (req, res) => {
@@ -67,11 +70,23 @@ module.exports = {
 			id: pizzas[pizzas.length -1].id + 1,
 			nome: req.body.nome,
 			ingredientes: req.body.ingredientes.split(","),
-			preco: req.body.preco,
-			img: "/img/calabresa.jpg",
+			preco: Number(req.body.preco),
+			img: "/img/uploads/" + req.file.filename,
 			destaque: true
 		}
-		res.send(pizza);
+		pizzas.push(pizza);
+
+		// Salvar o array de pizzas no Pizzas.json
+		fs.writeFileSync(path.join('database', 'Pizzas.json'), JSON.stringify(pizzas))
+
+		// Redirecionar o usuário para a lista de pizzas
+		res.redirect("/");
+
+
+
+		// res.render("index"{pizzas});
+
+
 	}
 
 

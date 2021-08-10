@@ -18,7 +18,7 @@
 		<article>
 			<img src="<%= pizza.img %>" alt="<%= pizza.nome %>">
 			<a href="/pizzas/<%= pizza.id %>">Ver Mais</a>
-			<button>+ Add</button>
+			<button >+ Add</button>
 			<div><%= pizza.nome %></div>
 			<span><%= pizza.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}).replace('.',',') %></span>
 		</article>
