@@ -28,9 +28,9 @@ Para fazer a busca funcionar:
             ✔ Criar uma rota GET para "/pizzas/create" @done(21-08-04 20:38)
             ✔ Direcionar a req dessa rota para o controller PizzasController.create @done(21-08-04 20:38)
             ✔ Devolver a view com um form para que o visitante digite infos @done(21-08-04 20:38)
-            ☐ Adequar o form da view pizza-create.ejs para enviar o form via post para a rota "/pizzas/create"
-            ☐ Criar a rota POST "/pizzas/create" direcionando a requisição para PizzasController.store
-            ☐ Criar o controller PizzasController.store
+            ✔ Adequar o form da view pizza-create.ejs para enviar o form via post para a rota "/pizzas/create" @done(21-08-18 19:19)
+            ✔ Criar a rota POST "/pizzas/create" direcionando a requisição para PizzasController.store @done(21-08-18 19:19)
+            ✔ Criar o controller PizzasController.store @done(21-08-18 19:19)
         - Esse controller deve
         . Criar um objeto pizza com as informações que virão do form (req.body)
         . Adicionar essa pizza ao array de pizzas
