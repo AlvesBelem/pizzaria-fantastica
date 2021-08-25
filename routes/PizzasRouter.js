@@ -23,6 +23,7 @@ router.get('/', PizzasController.index)
 router.get('/pizzas/create', PizzasController.create)
 router.get('/pizzas/:id', SalvaVisitadasMiddleware, PizzasController.show)
 router.get('/busca', PizzasController.busca)
+
 // router.post('/pizzas/create', PizzasController.store);
 
 module.exports = router

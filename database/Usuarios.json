@@ -2,26 +2,26 @@
     {
         "nome":"Leonardo",
         "email":"leonardo@pizzariafantastica.com",
-        "senha":"tartaruga"
+        "senha":"$2b$10$F7jy1iEuv/7PA54OjSl4VO7YAes8.R6RMq3MOPcAOWXRWdfeIGiQy"
     },
     {
         "nome":"Rafael",
         "email":"rafael@pizzariafantastica.com",
-        "senha":"tartaruga"
+        "senha":"$2b$10$F7jy1iEuv/7PA54OjSl4VO7YAes8.R6RMq3MOPcAOWXRWdfeIGiQy"
     },
     {
         "nome":"Michelangelo",
         "email":"mike@pizzariafantastica.com",
-        "senha":"tartaruga"
+        "senha":"$2b$10$F7jy1iEuv/7PA54OjSl4VO7YAes8.R6RMq3MOPcAOWXRWdfeIGiQy"
     },
     {
         "nome":"Donatelo",
         "email":"donatelo@pizzariafantastica.com",
-        "senha":"tartaruga"
+        "senha":"$2b$10$F7jy1iEuv/7PA54OjSl4VO7YAes8.R6RMq3MOPcAOWXRWdfeIGiQy"
     },
     {
         "nome":"Splinter",
         "email":"splinter@pizzariafantastica.com",
-        "senha":"tartaruga"
+        "senha":"$2b$10$F7jy1iEuv/7PA54OjSl4VO7YAes8.R6RMq3MOPcAOWXRWdfeIGiQy"
     }
 ]
